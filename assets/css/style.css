@@ -366,6 +366,12 @@ nav ul li a:hover::after {
     z-index: 4;
 }
 
+.top-btn {
+    border: 2px solid white;
+    background-color: #0073B1;
+    padding: 8px;
+}
+
 @media (max-width:576px) {
     .mt-n-3 {
         margin-top: -15px !important;
