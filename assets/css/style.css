@@ -432,6 +432,10 @@ nav ul li a:hover::after {
     .min-w-957 {
         min-width: 0px !important;
     }
+
+    .arrow {
+        left: 75% !important;
+    }
 }
 
 @media (max-width:1200px) {
