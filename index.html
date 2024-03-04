@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>choopp</title>
+    <meta name="title" content="Recycle. Reward.
+    with Cloopp" />
+    <meta name="description" content="Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Recycle. Reward.
+    with Cloopp" />
+    <meta property="og:description" content="Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App." />
+    <meta property="og:image" content="https://i.ibb.co/yX2Jp4m/icon.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Recycle. Reward.
+    with Cloopp" />
+    <meta property="twitter:description" content="Get exclusive discounts and coupons from the hottest brands every time you recycle and track your environmental impact with the Cloopp App." />
+    <meta property="twitter:image" content="https://i.ibb.co/yX2Jp4m/icon.png" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="overflow-hidden">
+    <!-- back to top -->
+    <div onclick="scrollBtn()" id="topbtn"
+        class="display-none c-p position-fixed z-2  bottom-0 end-0 me-4 mb-4 top-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#F8B762" class="bg-transparent animate"
+            viewBox="0 0 16 16">
+            <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+    </div>
+    <!-- preloder -->
+    <div id="preloder"
+        class="min-vh-100 blue position-fixed top-0 start-0 w-100 d-flex align-items-center justify-content-center z-4">
+        <ul class="ps-0 mb-0">
+            <li class="text-center mt-4">
+                <a href="#" class="text-decoration-none ff-over fw-bold lh-normal text-center fs-md color-white">
+                    Choopp...
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="blue">
+        <nav class="h-90 nav-bg d-flex justify-content-center">
+            <div class="d-flex container justify-content-between align-items-center">
+                <a href="#">
+                    <img class="nav-logo position-relative z-2" src="./assets/images/logo.webp" alt="logo">
+                </a>
+                <ul class="m-0 d-flex align-items-center gap-36 p-0" id="mobileView">
+                    <li><a href="#work" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
+                            onclick="view()">How It
+                            Works</a></li>
+                    <li><a href="#brand" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
+                            onclick="view()">For
+                            Brands</a></li>
+                    <li><a href="#about" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
+                            onclick="view()">About
+                            Us</a></li>
+                    <li><a href="#careers" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
+                            onclick="view()">Careers</a>
+                    </li>
+                </ul>
+                <label class="d-flex flex-column gap-2 position-relative z-3 d-md-none" onclick="view()">
+                    <span class="blue icon icon1"></span>
+                    <span class="blue icon icon2"></span>
+                    <span class="blue icon icon3"></span>
+                </label>
+            </div>
+        </nav>
+        <header class="pt-78 position-relative">
+            <img class="position-absolute star" src="./assets/images/Star-ellipis.webp" alt="star">
+            <img class="position-absolute top-50 arrow" src="./assets/images/arrow.webp" alt="arrow">
+            <img class="position-absolute bottom-0 news end-0" src="./assets/images/header-ellipis.webp" alt="allipis">
+            <div class="container position-relative z-1">
+                <div class="row">
+                    <div class="col-lg-6 pt-lg-0 pt-5 mt-n-75 px-12 d-flex flex-column justify-content-center">
+                        <h1 class="max-w-616 color-white fs-lg fw-semibold m-0 ff-outfit text-nowrap">Recycle. Reward.
+                            <br> <span class="ff-over fw-normal">with
+                                Cloopp</span>
+                        </h1>
+                        <p class="color-white opacity-90 pt-3 max-w-448 m-0 ff-outfit fw-normal">Get exclusive discounts
+                            and
+                            coupons
+                            from the hottest
+                            brands every time you recycle
+                            and track
+                            your environmental impact with the Cloopp App.</p>
+                        <div class="d-flex gap-12 pt-28 flex-wrap">
+                            <a href="#"><img class="play" src="./assets/images/app-store.webp" alt="app-store"></a>
+                            <a href="#"><img class="play" src="./assets/images/google-play.webp" alt="google-play"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-lg-0 pt-5 px-12">
+                        <img class="header-img w-100" src="./assets/images/header-img.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <img class="w-100 mt-n-3 position-relative z-1 d-none d-sm-block"
+                    src="./assets/images/header-bottom.webp" alt="btm">
+            </div>
+        </header>
+    </div>
+    <section class="position-relative">
+        <img class="position-absolute faq news" src="./assets/images/mobile-ellipis.webp" alt="ellipis">
+        <div class="container position-relative z-1 pb-3 d-flex align-items-center justify-content-center flex-column"
+            id="work">
+            <h2 class="max-w-675 m-0 ff-outfit fw-semibold text-center fs-md color-black pt-5 pt-md-3">Creating a
+                Greener
+                World
+                Is
+                Now As
+                Easy As 1-2-3
+            </h2>
+            <div class="max-w-1008 w-100">
+                <div class="row pt-5 w-100 justify-content-md-between justify-content-center">
+                    <div class="col-md-5 pt-md-0 max-w-357 px-12 d-flex justify-content-center align-items-center">
+                        <img class="w-100" src="./assets/images/creating-img.webp" alt="phone">
+                    </div>
+                    <div class="col-md-7 pt-md-0 pt-5 px-12 max-w-501">
+                        <div>
+                            <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">1</p>
+                            <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Scan The Barcode Before
+                                Recycling
+                            </p>
+                            <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2">Open Cloopp, scan the product's
+                                barcode,
+                                and rack up
+                                points with every item you keep out of the landfill.</p>
+                        </div>
+                        <div class="pt-4">
+                            <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">2</p>
+                            <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Get Paid For Products You Use
+                            </p>
+                            <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2">Get rewarded for doing the right
+                                thing.
+                                Your daily items – from plastics to cardboard and beyond – are connected to the Cloopp
+                                App.
+                            </p>
+                        </div>
+                        <div class="pt-4">
+                            <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">3</p>
+                            <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Reap The Rewards</p>
+                            <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2">Earn exclusive coupons, promo
+                                codes,
+                                and cashback from the hottest brands and track your environmental impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-n-75">
+            <img class="w-100" src="./assets/images/creating-bottom.webp" alt="creating-btm">
+        </div>
+    </section>
+    <section class="blue">
+        <div class="container pt-100">
+            <div class="row w-100 justify-content-between">
+                <div class="col-lg-6 px-12 max-w-610" id="careers">
+                    <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3">Recycling Has
+                        Never Been This Easy and Rewarding
+                    </h2>
+                    <div class="accordion first max-w-513 pt-3" id="accordionExample">
+                        <div class="accordion-item mt-4">
+                            <h2 class="accordion-header m-0">
+                                <button class="accordion-button ff-outfit fw-medium fs-sm color-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <img class="pe-3 d-none d-sm-block" src="./assets/images/coupun.svg" alt="coupons">
+                                    Exclusive Coupons & Rewards
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body ms-sm-5 ff-outfit fs-s text-white opacity-90 fw-normal">
+                                    Cloopp partners with amazing brands to bring you coupons and deals you simply can’t
+                                    get anywhere else.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                            <h2 class="accordion-header m-0">
+                                <button class="accordion-button collapsed ff-outfit fw-medium fs-sm color-white"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <img class="pe-3 d-none d-sm-block" src="./assets/images/globe.svg" alt="globe">
+                                    Track Your Environmental Impact
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body ms-sm-5 ff-outfit fs-s text-white opacity-90 fw-normal">
+                                    Cloopp partners with amazing brands to bring you coupons and deals you simply can’t
+                                    get anywhere else.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-4">
+                            <h2 class="accordion-header m-0">
+                                <button class="accordion-button collapsed ff-outfit fw-medium fs-sm color-white"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    <img class="pe-3 d-none d-sm-block" src="./assets/images/good.svg" alt="good">
+                                    Feel Good
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body ms-sm-5 ff-outfit fs-s text-white opacity-90 fw-normal">
+                                    Cloopp partners with amazing brands to bring you coupons and deals you simply can’t
+                                    get anywhere else.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex pt-lg-0 pt-4 justify-content-center align-items-center px-12 max-w-593">
+                    <img class="w-100 ms-n-30 mb-n-50" src="./assets/images/recycle.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <img class="w-100 mt-n-81" src="./assets/images/recycle-bottom.webp" alt="recycle-bottom">
+        </div>
+    </section>
+    <section class="position-relative">
+        <img class="position-absolute faq news end-0" src="./assets/images/faq-ellipis.webp" alt="faq">
+        <div class="container position-relative z-1 d-flex justify-content-center align-items-center flex-column"
+            id="faq">
+            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-black pt-3" id="brand">Frequently Asked
+                Questions
+            </h2>
+            <div class="mt-4 pt-3 mb-5">
+                <div class="accordion w-100" id="accordionExample2">
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button  ff-outfit fw-medium fs-sm color-black" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseFour">
+                                What products can I scan?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample2">
+                            <div class="accordion-body min-w-957 ">
+                                <p class="ff-outfit fw-normal fs-s max-w-758  color-black opacity-80 m-0">
+                                    You can scan any product with a barcode before you recycle, no matter what it’s made
+                                    of.
+                                    Cloopp rewards you for your positive actions!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive">
+                                Where can I use my rewards?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                            <div class="accordion-body min-w-957 ">
+                                <p class="ff-outfit fw-normal fs-s max-w-758  color-black opacity-80 m-0">
+                                    You can scan any product with a barcode before you recycle, no matter what it’s made
+                                    of.
+                                    Cloopp rewards you for your positive actions!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                aria-expanded="false" aria-controls="collapseSix">
+                                What kind of impact can I make?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse w-100"
+                            data-bs-parent="#accordionExample2">
+                            <div class="accordion-body min-w-957">
+                                <p class="ff-outfit fw-normal fs-s max-w-758  color-black opacity-80 m-0">
+                                    You can scan any product with a barcode before you recycle, no matter what it’s made
+                                    of.
+                                    Cloopp rewards you for your positive actions!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                aria-expanded="false" aria-controls="collapseSeven">
+                                Which brands do you partner with?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                            <div class="accordion-body min-w-957 ">
+                                <p class="ff-outfit fw-normal fs-s max-w-758  color-black opacity-80 m-0">
+                                    You can scan any product with a barcode before you recycle, no matter what it’s made
+                                    of.
+                                    Cloopp rewards you for your positive actions!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blue position-relative">
+        <img class="position-absolute top-0 news start-0" src="./assets/images/about-ellipis.png" alt="about">
+        <img class="position-absolute bottom-0 news end-0" src="./assets/images/about-ellipis2.png" alt="about">
+        <div>
+            <img class="w-100 mt-n-2 position-relative z-1" src="./assets/images/asked-bottom.webp" alt="asked-bottom">
+        </div>
+        <div class="container position-relative z-1 d-flex justify-content-center flex-column align-items-center py-123"
+            id="about">
+            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3">Subscribe Newsletter</h2>
+            <p class="m-0 text-center ff-outfit fw-normal color-white opacity-90 fs-s pt-3 pb-3 mb-4">Subscribe to our
+                newsletter for
+                the latest news,
+                offers, and eco-tips.</p>
+            <div class="d-flex email w-100 justify-content-between align-items-center">
+                <input class="color-white w-100 ff-outfit fw-normal fs-s py-18 px-20" type="email"
+                    placeholder="Enter your email">
+                <button class="btn ff-outfit color-blue fs-s fw-semibold white">Join</button>
+            </div>
+        </div>
+        <div>
+            <img class="w-100 mb-n-5" src="./assets/images/foot-top.webp" alt="foot-top">
+        </div>
+    </section>
+    <footer class="black">
+        <div class="container pb-80 pt-49">
+            <div class="row w-100 justify-content-between">
+                <div class="col-md-4 max-w-345 px-12">
+                    <a href="#"><img class="nav-logo" src="./assets/images/foot-logo.webp" alt="foot-logo"></a>
+                    <p class="m-0 ff-outfit fw-normal fs-s color-white opacity-80 pt-3">Cloopp revolutionizes recycling
+                        for
+                        everyone. Join, earn,
+                        and support
+                        sustainability.
+                    </p>
+                </div>
+                <div class="col-md-8 max-w-513 px-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
+                            <ul class="m-0 p-0">
+                                <li class="pt-3"><a href="#about"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">About
+                                        Us</a>
+                                </li>
+                                <li class="pt-3"><a href="#work"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">How
+                                        It Works</a>
+                                </li>
+                                <li class="pt-3"><a href="#brand"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">For
+                                        Brands</a>
+                                </li>
+                                <li class="pt-3"><a href="#faq"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
+                            <ul class="m-0 p-0">
+                                <li class="pt-3"><a href="#"
+                                        class="ff-outfit fw-normal text-nowrap fs-s color-white opacity-80 text-decoration-none">Terms
+                                        & Conditions</a>
+                                </li>
+                                <li class="pt-3"><a href="#"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">Privacy
+                                        Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
+                            <ul class="m-0 p-0">
+                                <li class="pt-3"><a href="#"
+                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">Follow
+                                        Us </a>
+                                </li>
+                            </ul>
+                            <div class="d-flex gap-10 pt-3">
+                                <a href="https://www.instagram.com/" target="_blank"><img class="translate-y"
+                                        src="./assets/images/insta.svg" alt="insta"></a>
+                                <a href="https://www.facebook.com/" target="_blank"><img class="translate-y"
+                                        src="./assets/images/fb.svg" alt="fb"></a>
+                                <a href="https://twitter.com/i/flow/login" target="_blank"><img class="translate-y"
+                                        src="./assets/images/twitr.svg" alt="twitr"></a>
+                                <a href="https://web.telegram.org/k/" target="_blank"><img class="translate-y"
+                                        src="./assets/images/telegram.svg" alt="telegram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" date w-100">
+            <p class="ff-outfit m-0 text-center fs-1s color-white fw-normal py-14 opacity-60">© <span id="year"></span>
+                Cloopp</p>
+        </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script>
+        const y = new Date();
+        const year = y.getFullYear();
+        document.getElementById("year").innerHTML = year;
+    </script>
+</body>
+
+</html>
