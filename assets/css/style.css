@@ -398,6 +398,10 @@ nav ul li a:hover::after {
         left: 0% !important;
     }
 
+    .arrow {
+        max-width: 90px;
+    }
+
     .mb-n-75 {
         margin-bottom: -35px;
     }
