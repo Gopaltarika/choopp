@@ -25,10 +25,12 @@
     <meta property="twitter:image" content="https://i.ibb.co/yX2Jp4m/icon.png" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/root.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/images/icon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body class="overflow-hidden">
     <!-- back to top -->
     <div onclick="scrollBtn()" id="topbtn"
@@ -58,18 +60,14 @@
                 <a href="#">
                     <img class="nav-logo position-relative z-2" src="./assets/images/logo.webp" alt="logo">
                 </a>
-                <ul class="m-0 d-flex align-items-center gap-36 p-0" id="mobileView">
-                    <li><a href="#work" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
-                            onclick="view()">How It
+                <ul class="m-0 d-flex gap-36 p-0 ff-outfit fs-s fw-normal opacity-90" id="mobileView">
+                    <li><a href="#work" class="color-white text-decoration-none" onclick="view()">How It
                             Works</a></li>
-                    <li><a href="#brand" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
-                            onclick="view()">For
+                    <li><a href="#brand" class="color-white text-decoration-none" onclick="view()">For
                             Brands</a></li>
-                    <li><a href="#about" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
-                            onclick="view()">About
+                    <li><a href="#about" class="color-white text-decoration-none" onclick="view()">About
                             Us</a></li>
-                    <li><a href="#careers" class="ff-outfit fs-s color-white fw-normal opacity-90 text-decoration-none"
-                            onclick="view()">Careers</a>
+                    <li><a href="#careers" class="color-white text-decoration-none" onclick="view()">Careers</a>
                     </li>
                 </ul>
                 <label class="d-flex flex-column gap-2 position-relative z-3 d-md-none" onclick="view()">
@@ -86,15 +84,15 @@
             <div class="container position-relative z-1">
                 <div class="row">
                     <div
-                        class="col-lg-6 align-items-lg-start align-items-center pt-lg-0 pt-5 mt-n-75 px-12 d-flex flex-column justify-content-center">
-                        <h1
-                            class="max-w-616 color-white fs-lg fw-semibold m-0 ff-outfit text-nowrap text-lg-start text-center">
+                        class="col-lg-6 align-items-lg-start align-items-center pt-lg-0 pt-5 mt-n-75 d-flex flex-column justify-content-center">
+                        <h1 class="max-w-616 color-white fs-lg fw-semibold m-0 ff-outfit text-nowrap text-lg-start text-center"
+                            data-aos="fade-down">
                             Recycle. Reward.
                             <br> <span class="ff-over fw-normal">with
                                 Cloopp</span>
                         </h1>
-                        <p
-                            class="color-white opacity-90 pt-3 max-w-448 m-0 ff-outfit fw-normal text-lg-start text-center">
+                        <p class="color-white opacity-90 pt-3 max-w-448 m-0 ff-outfit fw-normal text-lg-start text-center"
+                            data-aos="fade-down">
                             Get exclusive discounts
                             and
                             coupons
@@ -102,16 +100,17 @@
                             brands every time you recycle
                             and track
                             your environmental impact with the Cloopp App.</p>
-                        <div class="d-flex gap-12 justify-content-sm-start justify-content-center pt-28 flex-wrap">
+                        <div class="d-flex gap-12 justify-content-sm-start justify-content-center pt-28 flex-wrap"
+                            data-aos="fade-down">
                             <a href="https://www.apple.com/in/app-store/" target="_blank"><img class="play"
                                     src="./assets/images/app-store.webp" alt="app-store"></a>
                             <a href="https://play.google.com/store/apps/?hl=en_IN&gl=US" target="_blank"><img
                                     class="play" src="./assets/images/google-play.webp" alt="google-play"></a>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-6 d-flex d-lg-block justify-content-center align-items-center pt-lg-0 pt-5 px-12">
-                        <img class="header-img w-100" src="./assets/images/header-img.webp" alt="">
+                    <div class="col-lg-6 d-flex d-lg-block justify-content-center align-items-center pt-lg-0 pt-5">
+                        <img class="header-img w-100" src="./assets/images/header-img.webp" alt="header-img"
+                            data-aos="fade-down">
                     </div>
                 </div>
             </div>
@@ -123,27 +122,30 @@
     </div>
     <section class="position-relative">
         <img class="position-absolute faq news" src="./assets/images/mobile-ellipis.webp" alt="ellipis">
-        <div class="container" id="work">
-            <h2 class="ff-outfit fw-semibold text-center position-relative z-1 fs-md color-black pt-5 pt-md-3">Creating
+        <div class="container position-relative z-1" id="work">
+            <h2 class="ff-outfit fw-semibold text-center position-relative z-1 fs-md color-black pt-5 pt-md-3"
+                data-aos="fade-down">Creating
                 a Greener World Is <span class="d-md-block"> Now As Easy As 1-2-3</span> </h2>
             <div class="row justify-content-center position-relative z-1">
                 <div class="col-10">
                     <div class="row pt-5 w-100 justify-content-md-around justify-content-center">
-                        <div class="col-md-4 pt-md-0 px-12 d-flex justify-content-center align-items-center">
-                            <img class="w-100" src="./assets/images/creating-img.webp" alt="phone">
+                        <div class="col-md-4 pt-md-0 d-flex justify-content-center align-items-center">
+                            <img class="w-100" src="./assets/images/creating-img.webp" alt="phone" data-aos="fade-down">
                         </div>
-                        <div class="col-md-7 pt-md-0 pt-5 px-12">
-
-                            <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">1</p>
-                            <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Scan The Barcode Before
+                        <div class="col-md-7 pt-md-0 pt-5">
+                            <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0"
+                                data-aos="fade-down">1</p>
+                            <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20" data-aos="fade-down">Scan The
+                                Barcode Before
                                 Recycling
                             </p>
-                            <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2">Open Cloopp, scan the product's
+                            <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2" data-aos="fade-down">Open Cloopp,
+                                scan the product's
                                 barcode,
                                 and rack up
                                 points with every item you keep out of the landfill.</p>
 
-                            <div class="pt-4">
+                            <div class="pt-4" data-aos="fade-down">
                                 <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">2</p>
                                 <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Get Paid For Products You
                                     Use
@@ -156,7 +158,7 @@
                                     App.
                                 </p>
                             </div>
-                            <div class="pt-4">
+                            <div class="pt-4" data-aos="fade-down">
                                 <p class="count black color-cream ff-outfit fw-semibold fs-2sm text-center m-0">3</p>
                                 <p class=" ff-outfit fw-medium fs-sm color-black m-0 pt-20">Reap The Rewards</p>
                                 <p class="ff-outfit fw-normal color-black fs-s m-0 pt-2">Earn exclusive coupons, promo
@@ -175,14 +177,15 @@
     <section class="blue">
         <div class="container pt-100">
             <div class="row w-100 justify-content-lg-between justify-content-center">
-                <div class="col-lg-6 d-flex d-lg-block flex-column align-items-center px-12" id="careers">
-                    <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3">Recycling Has
+                <div class="col-lg-6 d-flex d-lg-block flex-column align-items-center" id="careers">
+                    <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3" data-aos="fade-down">
+                        Recycling Has
                         Never Been This Easy and Rewarding
                     </h2>
                     <div class="row justify-content-center justify-content-lg-start">
                         <div class="col-10">
                             <div class="accordion first pt-3" id="accordionExample">
-                                <div class="accordion-item mt-4">
+                                <div class="accordion-item mt-4" data-aos="fade-down">
                                     <h2 class="accordion-header m-0">
                                         <button class="accordion-button ff-outfit fw-medium fs-sm color-white"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -202,7 +205,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mt-4">
+                                <div class="accordion-item mt-4" data-aos="fade-down">
                                     <h2 class="accordion-header m-0">
                                         <button class="accordion-button collapsed ff-outfit fw-medium fs-sm color-white"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
@@ -222,7 +225,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item mt-4">
+                                <div class="accordion-item mt-4" data-aos="fade-down">
                                     <h2 class="accordion-header m-0">
                                         <button class="accordion-button collapsed ff-outfit fw-medium fs-sm color-white"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
@@ -246,8 +249,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex pt-lg-0 pt-4 justify-content-center align-items-center px-12 max-w-593">
-                    <img class="w-100 ms-n-30 mb-n-50" src="./assets/images/recycle.webp" alt="">
+                <div class="col-lg-6 pt-lg-0 pt-4">
+                    <img class="w-100 ms-n-30 mb-n-50" src="./assets/images/recycle.webp" alt="recyle">
                 </div>
             </div>
         </div>
@@ -258,13 +261,14 @@
     <section class="position-relative">
         <img class="position-absolute faq news end-0" src="./assets/images/faq-ellipis.webp" alt="faq">
         <div class="container" id="faq">
-            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-black pt-3" id="brand">Frequently Asked
+            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-black pt-3" id="brand" data-aos="fade-down">
+                Frequently Asked
                 Questions
             </h2>
             <div class="row justify-content-center mt-4 pt-3">
                 <div class="col-10">
                     <div class="accordion w-100" id="accordionExample2">
-                        <div class="accordion-item mt-3">
+                        <div class="accordion-item mt-3" data-aos="fade-down">
                             <h2 class="accordion-header">
                                 <button class="accordion-button  ff-outfit fw-medium fs-sm color-black" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
@@ -284,7 +288,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mt-3">
+                        <div class="accordion-item mt-3" data-aos="fade-down">
                             <h2 class="accordion-header">
                                 <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
@@ -304,7 +308,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mt-3">
+                        <div class="accordion-item mt-3" data-aos="fade-down">
                             <h2 class="accordion-header">
                                 <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
@@ -324,7 +328,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mt-3">
+                        <div class="accordion-item mt-3" data-aos="fade-down">
                             <h2 class="accordion-header">
                                 <button class="accordion-button ff-outfit fw-medium fs-sm color-black collapsed"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
@@ -357,13 +361,15 @@
             <img class="w-100 position-relative z-1" src="./assets/images/asked-bottom.webp" alt="asked-bottom">
         </div>
         <div class="container position-relative z-1 py-123" id="about">
-            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3">Subscribe Newsletter</h2>
-            <p class="m-0 text-center ff-outfit fw-normal color-white opacity-90 fs-s pt-3 pb-3 mb-4">Subscribe to our
+            <h2 class="m-0 ff-outfit fw-semibold text-center fs-md color-white pt-3" data-aos="fade-down">Subscribe
+                Newsletter</h2>
+            <p class="m-0 text-center ff-outfit fw-normal color-white opacity-90 fs-s pt-3 pb-3 mb-4"
+                data-aos="fade-down">Subscribe to our
                 newsletter for
                 the latest news,
                 offers, and eco-tips.</p>
-            <form class="d-flex email w-100 justify-content-between mx-auto align-items-center">
-                <input class="color-white w-100 ff-outfit fw-normal fs-s py-18 px-20" type="email"
+            <form class="d-flex email w-100 justify-content-between mx-auto align-items-center" data-aos="fade-down">
+                <input class="color-white w-100 ff-outfit fw-normal fs-s py-3 px-20" type="email"
                     placeholder="Enter your email" required>
                 <button class="btn ff-outfit color-blue fs-s fw-semibold white" type="submit">Join</button>
             </form>
@@ -375,52 +381,49 @@
     <footer class="black">
         <div class="container pb-80 pt-49">
             <div class="row w-100 justify-content-between">
-                <div class="col-md-4 px-12">
+                <div class="col-md-4">
                     <a href="#"><img class="nav-logo" src="./assets/images/foot-logo.webp" alt="foot-logo"></a>
                     <p class="m-0 ff-outfit fw-normal fs-s color-white opacity-80 pt-3">Cloopp revolutionizes recycling
-                        for
-                        everyone. Join, earn,
-                        and support
-                        sustainability.
+                        for everyone. Join, earn, and support sustainability.
                     </p>
                 </div>
-                <div class="col-md-6 px-12">
+                <div class="col-md-6">
                     <div class="row">
-                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
-                            <ul class="m-0 p-0">
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4">
+                            <ul class="m-0 p-0 ff-outfit fw-normal fs-s opacity-80">
                                 <li class="pt-3"><a href="#about"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">About
+                                        class="color-white text-decoration-none">About
                                         Us</a>
                                 </li>
                                 <li class="pt-3"><a href="#work"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">How
+                                        class="color-white text-decoration-none">How
                                         It Works</a>
                                 </li>
                                 <li class="pt-3"><a href="#brand"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">For
+                                        class="color-white text-decoration-none">For
                                         Brands</a>
                                 </li>
                                 <li class="pt-3"><a href="#faq"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">FAQs</a>
+                                        class="color-white text-decoration-none">FAQs</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
-                            <ul class="m-0 p-0">
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4">
+                            <ul class="m-0 p-0 ff-outfit fw-normal fs-s opacity-80">
                                 <li class="pt-3"><a href="#"
                                         class="ff-outfit fw-normal text-nowrap fs-s color-white opacity-80 text-decoration-none">Terms
                                         & Conditions</a>
                                 </li>
                                 <li class="pt-3"><a href="#"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">Privacy
+                                        class="color-white text-decoration-none">Privacy
                                         Policy</a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-4 col-6 pt-md-0 pt-4 px-12">
+                        <div class="col-sm-4 col-6 pt-md-0 pt-4">
                             <ul class="m-0 p-0">
                                 <li class="pt-3"><a href="#"
-                                        class="ff-outfit fw-normal fs-s color-white opacity-80 text-decoration-none">Follow
+                                        class=" ff-outfit fw-normal fs-s opacity-80 color-white text-decoration-none">Follow
                                         Us </a>
                                 </li>
                             </ul>
@@ -440,7 +443,7 @@
             </div>
         </div>
         <div class=" date w-100">
-            <p class="ff-outfit m-0 text-center fs-1s color-white fw-normal py-14 opacity-60">© <span id="year"></span>
+            <p class="ff-outfit m-0 text-center fs-1s color-white fw-normal py-3 opacity-60">© <span id="year"></span>
                 Cloopp</p>
         </div>
     </footer>
@@ -454,6 +457,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                once: true,
+                duration: 1500,
+            });
+    </script>
     <script>
         const y = new Date();
         const year = y.getFullYear();
