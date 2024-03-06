@@ -17,6 +17,14 @@
     font-family: 'Outfit';
 }
 
+p {
+    line-height: 24px !important;
+}
+
+h3 {
+    line-height: 30.72px !important;
+}
+
 .nav-bg {
     background: #FFFFFF05;
 }
@@ -85,8 +93,8 @@
     padding-top: 20px;
 }
 
-.pt-100 {
-    padding-top: 110px;
+.pt-150 {
+    padding-top: 150px;
 }
 
 .first .accordion-button {
@@ -184,9 +192,13 @@ input::placeholder {
     height: 54px;
 }
 
-.py-123 {
+.top-20 {
+    top: 20%;
+}
+
+.py-news {
     padding-top: 123px;
-    padding-bottom: 153px;
+    padding-bottom: 163px;
 }
 
 .gap-10 {
@@ -213,7 +225,7 @@ input::placeholder {
     margin-bottom: -5px;
 }
 
-.mt-n-3 {
+.mt-n-40 {
     margin-top: -40px;
 }
 
@@ -223,7 +235,10 @@ input::placeholder {
     border-radius: 20px;
     transition: .4s;
     background: white !important;
+}
 
+.wave2 {
+    transform: translateY(-2px);
 }
 
 .icon4 {
@@ -303,6 +318,10 @@ nav ul li a:hover::after {
     top: -10%;
 }
 
+.bottom-n-2 {
+    bottom: -2%;
+}
+
 .z-4 {
     z-index: 4;
 }
@@ -317,8 +336,12 @@ nav ul li a:hover::after {
     background: red !important;
 }
 
+.wave {
+    transform: translateY(2px);
+}
+
 @media (max-width:576px) {
-    .mt-n-3 {
+    .mt-n-40 {
         margin-top: -15px !important;
     }
 
@@ -373,7 +396,7 @@ nav ul li a:hover::after {
 }
 
 @media (max-width:992px) {
-    .mt-n-3 {
+    .mt-n-40 {
         margin-top: -24px;
     }
 
@@ -381,7 +404,7 @@ nav ul li a:hover::after {
         margin-bottom: -40px;
     }
 
-    .pt-100 {
+    .pt-150 {
         padding-top: 70px !important;
     }
 
@@ -405,7 +428,7 @@ nav ul li a:hover::after {
         margin-top: -81px;
     }
 
-    .mt-n-3 {
+    .mt-n-40 {
         margin-top: -46px;
     }
 }
