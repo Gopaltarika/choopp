@@ -155,9 +155,11 @@ h3 {
 .max-w-510 {
     max-width: 510px;
 }
-.max-w-593{
+
+.max-w-593 {
     max-width: 593px;
 }
+
 .px-20 {
     padding-right: 20px;
     padding-left: 20px;
@@ -354,6 +356,11 @@ nav ul li a:hover::after {
     .news {
         max-width: 150px;
     }
+
+    .py-news {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
 }
 
 @media (max-width:767.99px) {
@@ -369,6 +376,10 @@ nav ul li a:hover::after {
         transition: .7s;
         background: var(--fc-blue);
         z-index: 2 !important;
+    }
+
+    .max-w-510 {
+        max-width: unset !important;
     }
 
     .overflow-hide {
